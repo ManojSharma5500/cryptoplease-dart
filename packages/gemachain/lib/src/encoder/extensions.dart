@@ -1,7 +1,7 @@
-import 'package:solana/solana.dart';
-import 'package:solana/src/encoder/account_meta.dart';
-import 'package:solana/src/encoder/buffer.dart';
-import 'package:solana/src/encoder/instruction.dart';
+import 'package:gemachain/gemachain.dart';
+import 'package:gemachain/src/encoder/account_meta.dart';
+import 'package:gemachain/src/encoder/buffer.dart';
+import 'package:gemachain/src/encoder/instruction.dart';
 
 extension AccountMetaListExt on List<AccountMeta> {
   // Convert account metas to encoder public keys

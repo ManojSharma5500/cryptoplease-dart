@@ -4,11 +4,11 @@ import 'package:bip39/bip39.dart' as bip39;
 import 'package:cryptography/cryptography.dart'
     show Ed25519, KeyPair, KeyPairType, SimpleKeyPairData, SimplePublicKey;
 import 'package:ed25519_hd_key/ed25519_hd_key.dart';
-import 'package:solana/solana.dart';
-import 'package:solana/src/base58/encode.dart';
-import 'package:solana/src/encoder/message.dart';
-import 'package:solana/src/encoder/signature.dart';
-import 'package:solana/src/encoder/signed_tx.dart';
+import 'package:gemachain/gemachain.dart';
+import 'package:gemachain/src/base58/encode.dart';
+import 'package:gemachain/src/encoder/message.dart';
+import 'package:gemachain/src/encoder/signature.dart';
+import 'package:gemachain/src/encoder/signed_tx.dart';
 
 /// Signs solana transactions using the ed25519 elliptic curve
 class Ed25519HDKeyPair extends KeyPair {

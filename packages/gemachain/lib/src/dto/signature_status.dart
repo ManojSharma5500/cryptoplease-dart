@@ -1,5 +1,5 @@
 import 'package:json_annotation/json_annotation.dart';
-import 'package:solana/src/dto/commitment.dart';
+import 'package:gemachain/src/dto/commitment.dart';
 
 part 'signature_status.g.dart';
 

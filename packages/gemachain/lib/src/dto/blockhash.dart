@@ -1,5 +1,5 @@
 import 'package:json_annotation/json_annotation.dart';
-import 'package:solana/src/dto/fee_calculator.dart';
+import 'package:gemachain/src/dto/fee_calculator.dart';
 
 part 'blockhash.g.dart';
 

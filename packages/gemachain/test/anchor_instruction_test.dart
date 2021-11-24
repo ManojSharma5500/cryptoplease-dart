@@ -1,10 +1,10 @@
 import 'dart:io';
 
-import 'package:solana/solana.dart';
-import 'package:solana/src/anchor/instruction.dart';
-import 'package:solana/src/crypto/ed25519_hd_keypair.dart';
-import 'package:solana/src/encoder/constants.dart';
-import 'package:solana/src/encoder/message.dart';
+import 'package:gemachain/gemachain.dart';
+import 'package:gemachain/src/anchor/instruction.dart';
+import 'package:gemachain/src/crypto/ed25519_hd_keypair.dart';
+import 'package:gemachain/src/encoder/constants.dart';
+import 'package:gemachain/src/encoder/message.dart';
 import 'package:test/test.dart';
 
 import 'airdrop.dart';

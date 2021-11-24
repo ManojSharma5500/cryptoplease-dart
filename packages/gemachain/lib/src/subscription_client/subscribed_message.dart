@@ -1,5 +1,5 @@
 import 'package:json_annotation/json_annotation.dart';
-import 'package:solana/src/subscription_client/abstract_message.dart';
+import 'package:gemachain/src/subscription_client/abstract_message.dart';
 
 part 'subscribed_message.g.dart';
 

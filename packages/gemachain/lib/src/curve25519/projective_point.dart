@@ -1,6 +1,6 @@
-import 'package:solana/src/curve25519/completed_point.dart';
-import 'package:solana/src/curve25519/edwards_point.dart';
-import 'package:solana/src/curve25519/field_element.dart';
+import 'package:gemachain/src/curve25519/completed_point.dart';
+import 'package:gemachain/src/curve25519/edwards_point.dart';
+import 'package:gemachain/src/curve25519/field_element.dart';
 
 class ProjectivePoint {
   ProjectivePoint(this._x, this._y, this._z);

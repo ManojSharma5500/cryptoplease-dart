@@ -1,7 +1,7 @@
-import 'package:solana/src/common/byte_array.dart';
-import 'package:solana/src/encoder/account_meta.dart';
-import 'package:solana/src/encoder/buffer.dart';
-import 'package:solana/src/encoder/compact_array.dart';
+import 'package:gemachain/src/common/byte_array.dart';
+import 'package:gemachain/src/encoder/account_meta.dart';
+import 'package:gemachain/src/encoder/buffer.dart';
+import 'package:gemachain/src/encoder/compact_array.dart';
 
 /// Taken from [here](https://spl.solana.com/memo#compute-limits)
 ///

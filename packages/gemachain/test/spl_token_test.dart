@@ -1,9 +1,9 @@
-import 'package:solana/solana.dart';
-import 'package:solana/src/crypto/ed25519_hd_keypair.dart';
-import 'package:solana/src/exceptions/no_associated_token_account_exception.dart';
-import 'package:solana/src/spl_token/associated_account.dart';
-import 'package:solana/src/spl_token/spl_token.dart';
-import 'package:solana/src/spl_token/token_supply.dart';
+import 'package:gemachain/gemachain.dart';
+import 'package:gemachain/src/crypto/ed25519_hd_keypair.dart';
+import 'package:gemachain/src/exceptions/no_associated_token_account_exception.dart';
+import 'package:gemachain/src/spl_token/associated_account.dart';
+import 'package:gemachain/src/spl_token/spl_token.dart';
+import 'package:gemachain/src/spl_token/token_supply.dart';
 import 'package:test/test.dart';
 
 import 'airdrop.dart';

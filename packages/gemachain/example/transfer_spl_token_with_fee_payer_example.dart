@@ -1,4 +1,4 @@
-import 'package:solana/solana.dart';
+import 'package:gemachain/gemachain.dart';
 
 Future<void> example() async {
   final rpcClient = RPCClient(_rpcClientUrl);

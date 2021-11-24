@@ -1,4 +1,4 @@
-name: dart-solana-lib
+name: dart-gemachain-lib
 
 packages:
   - 'packages/**'

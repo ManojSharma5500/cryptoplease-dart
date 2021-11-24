@@ -1,8 +1,7 @@
 import 'package:freezed_annotation/freezed_annotation.dart';
 import 'package:json_annotation/json_annotation.dart';
-import 'package:solana/src/dto/account_data.dart';
+import 'package:gemachain/src/dto/account_data.dart';
 part 'account.g.dart';
-
 
 /// Response of the [`getAccountInfo`][get account info] rpc method.
 ///

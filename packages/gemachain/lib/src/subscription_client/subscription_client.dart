@@ -2,21 +2,21 @@ import 'dart:async';
 import 'dart:convert';
 import 'dart:io';
 
-import 'package:solana/src/dto/account.dart';
-import 'package:solana/src/dto/commitment.dart';
-import 'package:solana/src/dto/encoding.dart';
-import 'package:solana/src/dto/logs.dart';
-import 'package:solana/src/dto/program_filter.dart';
-import 'package:solana/src/dto/slot.dart';
-import 'package:solana/src/exceptions/bad_state_exception.dart';
-import 'package:solana/src/subscription_client/abstract_message.dart';
-import 'package:solana/src/subscription_client/error_message.dart';
-import 'package:solana/src/subscription_client/logs_filter.dart';
-import 'package:solana/src/subscription_client/notification_message.dart';
-import 'package:solana/src/subscription_client/optional_error.dart';
-import 'package:solana/src/subscription_client/subscribed_message.dart';
-import 'package:solana/src/subscription_client/subscription_client_exception.dart';
-import 'package:solana/src/subscription_client/subscription_manager.dart';
+import 'package:gemachain/src/dto/account.dart';
+import 'package:gemachain/src/dto/commitment.dart';
+import 'package:gemachain/src/dto/encoding.dart';
+import 'package:gemachain/src/dto/logs.dart';
+import 'package:gemachain/src/dto/program_filter.dart';
+import 'package:gemachain/src/dto/slot.dart';
+import 'package:gemachain/src/exceptions/bad_state_exception.dart';
+import 'package:gemachain/src/subscription_client/abstract_message.dart';
+import 'package:gemachain/src/subscription_client/error_message.dart';
+import 'package:gemachain/src/subscription_client/logs_filter.dart';
+import 'package:gemachain/src/subscription_client/notification_message.dart';
+import 'package:gemachain/src/subscription_client/optional_error.dart';
+import 'package:gemachain/src/subscription_client/subscribed_message.dart';
+import 'package:gemachain/src/subscription_client/subscription_client_exception.dart';
+import 'package:gemachain/src/subscription_client/subscription_manager.dart';
 
 /// Provides a websocket based connection to Solana.
 class SubscriptionClient {

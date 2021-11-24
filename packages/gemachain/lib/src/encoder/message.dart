@@ -1,13 +1,13 @@
 import 'dart:convert';
 
-import 'package:solana/src/base58/encode.dart';
-import 'package:solana/src/crypto/ed25519_hd_keypair.dart';
-import 'package:solana/src/encoder/buffer.dart';
-import 'package:solana/src/encoder/compact_array.dart';
-import 'package:solana/src/encoder/compiled_message.dart';
-import 'package:solana/src/encoder/extensions.dart';
-import 'package:solana/src/encoder/instruction.dart';
-import 'package:solana/src/encoder/message_header.dart';
+import 'package:gemachain/src/base58/encode.dart';
+import 'package:gemachain/src/crypto/ed25519_hd_keypair.dart';
+import 'package:gemachain/src/encoder/buffer.dart';
+import 'package:gemachain/src/encoder/compact_array.dart';
+import 'package:gemachain/src/encoder/compiled_message.dart';
+import 'package:gemachain/src/encoder/extensions.dart';
+import 'package:gemachain/src/encoder/instruction.dart';
+import 'package:gemachain/src/encoder/message_header.dart';
 
 /// This is an implementation of the [Message Format][message format].
 ///

@@ -1,12 +1,12 @@
 library utilities;
 
 import 'package:cryptography/cryptography.dart' hide Signature;
-import 'package:solana/src/crypto/ed25519_hd_keypair.dart';
-import 'package:solana/src/curve25519/compressed_edwards_y.dart';
-import 'package:solana/src/dto/blockhash.dart';
-import 'package:solana/src/encoder/compiled_message.dart';
-import 'package:solana/src/encoder/encoder.dart';
-import 'package:solana/src/encoder/signature.dart';
+import 'package:gemachain/src/crypto/ed25519_hd_keypair.dart';
+import 'package:gemachain/src/curve25519/compressed_edwards_y.dart';
+import 'package:gemachain/src/dto/blockhash.dart';
+import 'package:gemachain/src/encoder/compiled_message.dart';
+import 'package:gemachain/src/encoder/encoder.dart';
+import 'package:gemachain/src/encoder/signature.dart';
 
 import 'base58/encode.dart';
 import 'encoder/buffer.dart';

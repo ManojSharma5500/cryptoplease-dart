@@ -1,7 +1,7 @@
-import 'package:solana/src/subscription_client/error_message.dart';
-import 'package:solana/src/subscription_client/notification_message.dart';
-import 'package:solana/src/subscription_client/subscribed_message.dart';
-import 'package:solana/src/subscription_client/unsubscribed_message.dart';
+import 'package:gemachain/src/subscription_client/error_message.dart';
+import 'package:gemachain/src/subscription_client/notification_message.dart';
+import 'package:gemachain/src/subscription_client/subscribed_message.dart';
+import 'package:gemachain/src/subscription_client/unsubscribed_message.dart';
 
 abstract class SubscriptionMessage {
   // All requests are matched to their responses by using the `id` specified

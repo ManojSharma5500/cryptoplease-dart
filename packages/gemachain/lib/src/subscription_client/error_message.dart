@@ -1,6 +1,6 @@
 import 'package:json_annotation/json_annotation.dart';
-import 'package:solana/src/subscription_client/abstract_message.dart';
-import 'package:solana/src/subscription_client/subscribe_error.dart';
+import 'package:gemachain/src/subscription_client/abstract_message.dart';
+import 'package:gemachain/src/subscription_client/subscribe_error.dart';
 
 part 'error_message.g.dart';
 

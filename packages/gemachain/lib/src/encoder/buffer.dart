@@ -1,8 +1,8 @@
 import 'dart:convert';
 import 'dart:typed_data';
 
-import 'package:solana/src/base58/decode.dart';
-import 'package:solana/src/common/byte_array.dart';
+import 'package:gemachain/src/base58/decode.dart';
+import 'package:gemachain/src/common/byte_array.dart';
 
 const int _bitsPerByte = 8;
 

@@ -1,4 +1,4 @@
-import 'package:solana/src/subscription_client/subscribe_error.dart';
+import 'package:gemachain/src/subscription_client/subscribe_error.dart';
 
 class SubscriptionClientException implements Exception {
   const SubscriptionClientException(this.error);

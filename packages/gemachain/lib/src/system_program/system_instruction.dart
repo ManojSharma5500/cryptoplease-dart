@@ -1,8 +1,8 @@
-import 'package:solana/src/common/byte_array.dart';
-import 'package:solana/src/encoder/account_meta.dart';
-import 'package:solana/src/encoder/buffer.dart';
-import 'package:solana/src/encoder/instruction.dart';
-import 'package:solana/src/system_program/system_program.dart';
+import 'package:gemachain/src/common/byte_array.dart';
+import 'package:gemachain/src/encoder/account_meta.dart';
+import 'package:gemachain/src/encoder/buffer.dart';
+import 'package:gemachain/src/encoder/instruction.dart';
+import 'package:gemachain/src/system_program/system_program.dart';
 
 class SystemInstruction extends Instruction {
   /// Create a system program instruction with [data], for [accounts].

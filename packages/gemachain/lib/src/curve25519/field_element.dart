@@ -1,5 +1,5 @@
-import 'package:solana/src/curve25519/extensions.dart';
-import 'package:solana/src/curve25519/sqrt_ratio_m1_result.dart';
+import 'package:gemachain/src/curve25519/extensions.dart';
+import 'package:gemachain/src/curve25519/sqrt_ratio_m1_result.dart';
 
 class FieldElement {
   FieldElement(this._t) {

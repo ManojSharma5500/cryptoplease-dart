@@ -1,5 +1,5 @@
 import 'package:json_annotation/json_annotation.dart';
-import 'package:solana/src/dto/parsed_spl_token_account_data_info.dart';
+import 'package:gemachain/src/dto/parsed_spl_token_account_data_info.dart';
 
 part 'parsed_spl_token_account_data.g.dart';
 

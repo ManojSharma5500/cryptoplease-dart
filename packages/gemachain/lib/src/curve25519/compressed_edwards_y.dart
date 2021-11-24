@@ -1,6 +1,6 @@
-import 'package:solana/src/curve25519/edwards_point.dart';
-import 'package:solana/src/curve25519/extensions.dart';
-import 'package:solana/src/curve25519/field_element.dart';
+import 'package:gemachain/src/curve25519/edwards_point.dart';
+import 'package:gemachain/src/curve25519/extensions.dart';
+import 'package:gemachain/src/curve25519/field_element.dart';
 
 final _d = FieldElement([
   -10913610, 13857413, -15372611, 6949391, 114729, //

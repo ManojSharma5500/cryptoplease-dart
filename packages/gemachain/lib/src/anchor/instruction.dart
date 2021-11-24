@@ -1,8 +1,8 @@
 import 'package:borsh_annotation/borsh_annotation.dart';
 import 'package:convert/convert.dart';
 import 'package:cryptography/cryptography.dart';
-import 'package:solana/src/encoder/account_meta.dart';
-import 'package:solana/src/encoder/instruction.dart';
+import 'package:gemachain/src/encoder/account_meta.dart';
+import 'package:gemachain/src/encoder/instruction.dart';
 
 class AnchorInstruction extends Instruction {
   const AnchorInstruction._({

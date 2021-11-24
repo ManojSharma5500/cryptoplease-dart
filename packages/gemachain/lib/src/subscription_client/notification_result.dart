@@ -1,5 +1,5 @@
 import 'package:json_annotation/json_annotation.dart';
-import 'package:solana/src/subscription_client/notification_context.dart';
+import 'package:gemachain/src/subscription_client/notification_context.dart';
 
 part 'notification_result.g.dart';
 

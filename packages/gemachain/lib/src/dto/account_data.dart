@@ -1,7 +1,7 @@
 import 'dart:convert';
 
 import 'package:freezed_annotation/freezed_annotation.dart';
-import 'package:solana/src/dto/parsed_spl_token_account_data.dart';
+import 'package:gemachain/src/dto/parsed_spl_token_account_data.dart';
 
 part 'account_data.freezed.dart';
 

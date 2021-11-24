@@ -1,6 +1,6 @@
-import 'package:solana/solana.dart';
-import 'package:solana/src/crypto/ed25519_hd_keypair.dart';
-import 'package:solana/src/dto/commitment.dart';
+import 'package:gemachain/gemachain.dart';
+import 'package:gemachain/src/crypto/ed25519_hd_keypair.dart';
+import 'package:gemachain/src/dto/commitment.dart';
 
 Future<void> airdrop(
   RPCClient client,

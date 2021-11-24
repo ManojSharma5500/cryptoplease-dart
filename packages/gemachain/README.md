@@ -1,6 +1,6 @@
-# Dart library for Solana
+# Dart library for Gemachain
 
-This is the Solana library for dart using the [JSON RPC API](https://docs.solana.com/apps/jsonrpc-api)
+This is the Solana library for dart using the [JSON RPC API]
 
 Currently, it supports
 

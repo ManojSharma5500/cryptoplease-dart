@@ -1,4 +1,4 @@
-import 'package:solana/src/utils.dart';
+import 'package:gemachain/src/utils.dart';
 import 'package:test/test.dart';
 
 void main() {

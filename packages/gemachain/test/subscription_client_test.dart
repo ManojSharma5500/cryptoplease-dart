@@ -1,9 +1,9 @@
-import 'package:solana/solana.dart';
-import 'package:solana/src/crypto/ed25519_hd_keypair.dart';
-import 'package:solana/src/dto/account.dart';
-import 'package:solana/src/rpc_client/rpc_client.dart';
-import 'package:solana/src/subscription_client/optional_error.dart';
-import 'package:solana/src/subscription_client/subscription_client.dart';
+import 'package:gemachain/gemachain.dart';
+import 'package:gemachain/src/crypto/ed25519_hd_keypair.dart';
+import 'package:gemachain/src/dto/account.dart';
+import 'package:gemachain/src/rpc_client/rpc_client.dart';
+import 'package:gemachain/src/subscription_client/optional_error.dart';
+import 'package:gemachain/src/subscription_client/subscription_client.dart';
 import 'package:test/test.dart';
 
 import 'config.dart';

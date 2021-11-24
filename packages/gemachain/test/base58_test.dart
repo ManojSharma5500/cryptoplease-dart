@@ -1,6 +1,6 @@
 import 'package:convert/convert.dart';
-import 'package:solana/src/base58/decode.dart';
-import 'package:solana/src/base58/encode.dart';
+import 'package:gemachain/src/base58/decode.dart';
+import 'package:gemachain/src/base58/encode.dart';
 import 'package:test/test.dart';
 
 void main() {

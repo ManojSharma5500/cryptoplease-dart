@@ -1,6 +1,6 @@
-import 'package:solana/src/curve25519/compressed_edwards_y.dart';
-import 'package:solana/src/curve25519/field_element.dart';
-import 'package:solana/src/curve25519/projective_point.dart';
+import 'package:gemachain/src/curve25519/compressed_edwards_y.dart';
+import 'package:gemachain/src/curve25519/field_element.dart';
+import 'package:gemachain/src/curve25519/projective_point.dart';
 
 class EdwardsPoint {
   EdwardsPoint(this._x, this._y, this._z, this._t);

@@ -1,6 +1,6 @@
 import 'package:freezed_annotation/freezed_annotation.dart';
 import 'package:json_annotation/json_annotation.dart';
-import 'package:solana/src/subscription_client/notification_result.dart';
+import 'package:gemachain/src/subscription_client/notification_result.dart';
 
 part 'notification_params.g.dart';
 

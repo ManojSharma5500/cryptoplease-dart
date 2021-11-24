@@ -1,4 +1,4 @@
-import 'package:solana/src/common/byte_array.dart';
+import 'package:gemachain/src/common/byte_array.dart';
 
 class CompactU16 extends ByteArray {
   factory CompactU16(int value) {

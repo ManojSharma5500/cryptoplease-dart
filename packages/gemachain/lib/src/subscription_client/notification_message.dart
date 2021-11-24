@@ -1,10 +1,10 @@
 import 'package:freezed_annotation/freezed_annotation.dart';
-import 'package:solana/src/dto/account.dart';
-import 'package:solana/src/dto/logs.dart';
-import 'package:solana/src/dto/slot.dart';
-import 'package:solana/src/subscription_client/abstract_message.dart';
-import 'package:solana/src/subscription_client/notification_params.dart';
-import 'package:solana/src/subscription_client/optional_error.dart';
+import 'package:gemachain/src/dto/account.dart';
+import 'package:gemachain/src/dto/logs.dart';
+import 'package:gemachain/src/dto/slot.dart';
+import 'package:gemachain/src/subscription_client/abstract_message.dart';
+import 'package:gemachain/src/subscription_client/notification_params.dart';
+import 'package:gemachain/src/subscription_client/optional_error.dart';
 
 part 'notification_message.freezed.dart';
 part 'notification_message.g.dart';

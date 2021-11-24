@@ -1,13 +1,13 @@
-import 'package:solana/solana.dart' show caratsPerSol;
-import 'package:solana/src/crypto/ed25519_hd_keypair.dart';
-import 'package:solana/src/dto/commitment.dart';
-import 'package:solana/src/exceptions/no_associated_token_account_exception.dart';
-import 'package:solana/src/parsed_message/parsed_instruction.dart';
-import 'package:solana/src/parsed_message/parsed_spl_token_instruction.dart';
-import 'package:solana/src/parsed_message/parsed_system_instruction.dart';
-import 'package:solana/src/rpc_client/rpc_client.dart';
-import 'package:solana/src/spl_token/spl_token.dart';
-import 'package:solana/src/wallet.dart';
+import 'package:gemachain/gemachain.dart' show caratsPerSol;
+import 'package:gemachain/src/crypto/ed25519_hd_keypair.dart';
+import 'package:gemachain/src/dto/commitment.dart';
+import 'package:gemachain/src/exceptions/no_associated_token_account_exception.dart';
+import 'package:gemachain/src/parsed_message/parsed_instruction.dart';
+import 'package:gemachain/src/parsed_message/parsed_spl_token_instruction.dart';
+import 'package:gemachain/src/parsed_message/parsed_system_instruction.dart';
+import 'package:gemachain/src/rpc_client/rpc_client.dart';
+import 'package:gemachain/src/spl_token/spl_token.dart';
+import 'package:gemachain/src/wallet.dart';
 import 'package:test/test.dart';
 
 import 'config.dart';
@@ -79,8 +79,8 @@ void main() {
         parsedInstructionSystem.parsed, isA<ParsedSystemTransferInstruction>());
     final parsedTransferInstruction =
         parsedInstructionSystem.parsed as ParsedSystemTransferInstruction;
-    expect(parsedTransferInstruction.info.carats,
-        equals(_caratsTransferAmount));
+    expect(
+        parsedTransferInstruction.info.carats, equals(_caratsTransferAmount));
     expect(instructions[1], const TypeMatcher<ParsedInstructionMemo>());
     final memoInstruction = instructions[1] as ParsedInstructionMemo;
     expect(memoInstruction.memo, equals(memoText));

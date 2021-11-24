@@ -1,15 +1,15 @@
 import 'package:bip39/bip39.dart';
-import 'package:solana/solana.dart';
-import 'package:solana/src/crypto/ed25519_hd_keypair.dart';
-import 'package:solana/src/dto/account.dart';
-import 'package:solana/src/dto/account_data.dart';
-import 'package:solana/src/dto/blockhash.dart';
-import 'package:solana/src/dto/commitment.dart';
-import 'package:solana/src/rpc_client/rpc_client.dart';
-import 'package:solana/src/rpc_client/simulate_tx_result.dart';
-import 'package:solana/src/rpc_client/transaction_response.dart';
-import 'package:solana/src/rpc_client/transaction_signature.dart';
-import 'package:solana/src/system_program/system_program.dart';
+import 'package:gemachain/gemachain.dart';
+import 'package:gemachain/src/crypto/ed25519_hd_keypair.dart';
+import 'package:gemachain/src/dto/account.dart';
+import 'package:gemachain/src/dto/account_data.dart';
+import 'package:gemachain/src/dto/blockhash.dart';
+import 'package:gemachain/src/dto/commitment.dart';
+import 'package:gemachain/src/rpc_client/rpc_client.dart';
+import 'package:gemachain/src/rpc_client/simulate_tx_result.dart';
+import 'package:gemachain/src/rpc_client/transaction_response.dart';
+import 'package:gemachain/src/rpc_client/transaction_signature.dart';
+import 'package:gemachain/src/system_program/system_program.dart';
 import 'package:test/test.dart';
 
 import 'airdrop.dart';

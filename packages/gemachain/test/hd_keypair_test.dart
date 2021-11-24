@@ -1,7 +1,7 @@
 import 'dart:math';
 
 import 'package:convert/convert.dart';
-import 'package:solana/src/crypto/ed25519_hd_keypair.dart';
+import 'package:gemachain/src/crypto/ed25519_hd_keypair.dart';
 import 'package:test/test.dart';
 
 void main() {

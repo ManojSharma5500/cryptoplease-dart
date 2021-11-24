@@ -1,5 +1,5 @@
-import 'package:solana/src/encoder/account_meta.dart';
-import 'package:solana/src/encoder/extensions.dart';
+import 'package:gemachain/src/encoder/account_meta.dart';
+import 'package:gemachain/src/encoder/extensions.dart';
 import 'package:test/test.dart';
 
 void main() {

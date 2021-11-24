@@ -1,6 +1,6 @@
-import 'package:solana/src/common/byte_array.dart';
-import 'package:solana/src/encoder/buffer.dart';
-import 'package:solana/src/encoder/compact_u16.dart';
+import 'package:gemachain/src/common/byte_array.dart';
+import 'package:gemachain/src/encoder/buffer.dart';
+import 'package:gemachain/src/encoder/compact_u16.dart';
 
 class CompactArray extends ByteArray {
   const CompactArray(this._data);

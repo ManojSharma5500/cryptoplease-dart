@@ -1,7 +1,7 @@
-import 'package:solana/src/encoder/account_meta.dart';
-import 'package:solana/src/encoder/buffer.dart';
-import 'package:solana/src/encoder/instruction.dart';
-import 'package:solana/src/memo_program/memo_program.dart';
+import 'package:gemachain/src/encoder/account_meta.dart';
+import 'package:gemachain/src/encoder/buffer.dart';
+import 'package:gemachain/src/encoder/instruction.dart';
+import 'package:gemachain/src/memo_program/memo_program.dart';
 
 /// The memo instruction for the memo program
 class MemoInstruction extends Instruction {
